@@ -151,6 +151,12 @@ div.quarto-post.image-right {
   }
 }
 
+@media (max-width: 767.98px) {
+  div.navbar-container.container-fluid {
+    padding-left: 0.4rem;
+  }
+}
+
 /*-- scss: hover category --*/
 
 div.quarto-post .listing-categories .listing-category {
