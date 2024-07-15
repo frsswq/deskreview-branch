@@ -12,9 +12,8 @@ $orange: #E36C2A !default;
 
 $body-bg: $white !default;
 $body-color: $black !default;
-$link-color: $black !default;
 
-$link-color: $orange !default;
+$link-color: $gray-700 !default;
 $text-muted: $gray-500 !default;
 
 $navbar-bg: $white !default;
@@ -40,7 +39,7 @@ h3.no-anchor.listing-title {
 p {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
 }
 
@@ -62,86 +61,45 @@ span.menu-text {
 
 /*-- scss: blog --*/
 
-// body {
-//   width: 100%; 
-//   text-align: center;
-// }
-
 main#quarto-document-content.content {
   max-width: 680px;
   justify-content: center;
   margin:0 auto;
-  // grid-column: body-content-start / body-content-end;
-  // grid-row: content-top / content-bottom;
-  // align-content: flex-start;
-  // justify-content: center;
-  // align-items: center;
-  // max-width: 680px;
-  // margin: 0px auto;
-}
-
-a.uri.external {
-  max-width: 680px;
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto; 
 }
 
 #quarto-content.page-columns main.column-page, #quarto-content.page-columns main.column-page-right, #quarto-content.page-columns main.column-page-left {
   max-width: 1440px;
 }
 
-// @media (max-width: 768px) {
-//   #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
-    // justify-content: center;
-    // align-items: center;
-    // max-width: 720px;
-    // // width: 100%;
-    // // height: auto;
-    // margin: 0 auto;
-    // padding: 0 1.5rem;
-    // padding-right: 0 1.5rem;
-    // grid-template-columns: [border-content-end] 0 [screen-end] 1.5em;
-//   }  
-// }
-
  #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
-  line-height: 2;
-//   display: grid;
-//   gap: 0;
-//   grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr;
-//   justify-content: center;
-//   align-items: center;
-//   align-content: center;
+  line-height: 1.5;
 }
-
-// #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
-//   justify-content: center;
-//   max-width: 720px;
-//   margin: 0 auto;
-//   padding-left: 1.2rem auto;
-//   padding-right: 1.2rem auto;
-//   grid-template-columns: [border-content-end] 0 [screen-end-inset] 0;
-// }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-contents p {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 0.8rem;
-  line-height: 1 !important;
+  // line-height: 1 !important;
+}
+
+a.uri.external {
+  max-width: 680px;
+  // These are technically the same, but use both
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  // This is the dangerous one in WebKit, as it breaks things wherever
+  word-break: break-all;
+  // Instead use this non-standard one:
+  word-break: break-word;
+
+  // Adds a hyphen where the word breaks, if supported (No Blink)
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto; 
 }
 
 /*-- scss: blog --*/
@@ -151,13 +109,32 @@ a.uri.external {
   width: 200px;
   margin-right: auto !important;
   margin-left: 0 !important;
+  margin-top: 0.5rem;
 }
-
 
 div.quarto-post .thumbnail img {
   max-width: 100%;
   height: auto;
   max-height: 150px;
+}
+
+@media (max-width: 767.98px) {
+  .quarto-post .thumbnail {
+    order: 1 !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  div.quarto-post .body {
+    margin-top: 0rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  div.quarto-post .metadata {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
 }
 
 div.quarto-post .body {
@@ -175,6 +152,8 @@ div.listing-categories {
 div.quarto-post.image-right {
   margin-bottom: 0rem;
 }
+
+/*-- scss: trash --*/
 
 // $theme: "flatly" !default;
 
