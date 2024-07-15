@@ -59,14 +59,32 @@ span.menu-text {
 
 /*-- scss: blog --*/
 
-#quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
-  justify-content: center;
-  max-width: 720px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  grid-template-columns: [border-content-end] 0 [screen-end-inset] 0;
+main#quarto-document-content.content {
+  // justify-content: center;
+  // align-items: center;
+  // max-width: 680px;
 }
+
+#quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
+  // justify-content: center;
+  // align-items: center;
+  max-width: 720px;
+  // width: 100%;
+  // height: auto;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  // padding-right: 0 1.5rem;
+  // grid-template-columns: [border-content-end] 0 [screen-end] 1.5em;
+}
+
+// #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
+//   justify-content: center;
+//   max-width: 720px;
+//   margin: 0 auto;
+//   padding-left: 1.2rem auto;
+//   padding-right: 1.2rem auto;
+//   grid-template-columns: [border-content-end] 0 [screen-end-inset] 0;
+// }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-contents p {
   font-family: "Inter", sans-serif;
