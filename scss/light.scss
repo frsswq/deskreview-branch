@@ -68,7 +68,7 @@ span.menu-text {
 // }
 
 main#quarto-document-content.content {
-  max-width: 740px;
+  max-width: 680px;
   // grid-column: body-content-start / body-content-end;
   // grid-row: content-top / content-bottom;
   // align-content: flex-start;
@@ -76,6 +76,10 @@ main#quarto-document-content.content {
   // align-items: center;
   // max-width: 680px;
   // margin: 0px auto;
+}
+
+a {
+  max-width: 680px;
 }
 
 #quarto-content.page-columns main.column-page, #quarto-content.page-columns main.column-page-right, #quarto-content.page-columns main.column-page-left {
