@@ -118,6 +118,22 @@ div.quarto-post .thumbnail img {
   max-height: 150px;
 }
 
+div.quarto-post .body {
+  margin-top: 1.1rem;
+}
+
+div.quarto-post .metadata {
+  padding-top: 1rem;
+}
+
+div.listing-categories {
+  margin-top: 0.6rem;
+}
+
+div.quarto-post.image-right {
+  margin-bottom: 0rem;
+}
+
 @media (max-width: 767.98px) {
   .quarto-post .thumbnail {
     order: 1 !important;
@@ -137,20 +153,11 @@ div.quarto-post .thumbnail img {
   }
 }
 
-div.quarto-post .body {
-  margin-top: 1.1rem;
-}
-
-div.quarto-post .metadata {
-  padding-top: 1rem;
-}
-
-div.listing-categories {
-  margin-top: 0.6rem;
-}
-
-div.quarto-post.image-right {
-  margin-bottom: 0rem;
+@media (max-width: 767.98px) {
+  .quarto-listing-filter {
+    margin-bottom: 0rem !important; 
+    margin-top: 0rem !important;
+  }
 }
 
 /*-- scss: trash --*/
