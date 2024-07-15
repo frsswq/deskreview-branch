@@ -1,0 +1,10 @@
+---
+title: "Deskreview"
+about:
+  template: trestles
+  links:
+    - icon: instagram
+      href: https://www.instagram.com/deskreview/
+comments: false
+title-block-banner: true
+---

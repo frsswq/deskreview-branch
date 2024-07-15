@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+execute:
+  freeze: auto
+
+website:
+  title: "Deskreview"
+  favicon: images/logo_short2.png
+  site-url: https://www.deskreview.com
+  twitter-card: true
+  open-graph: true
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "Website is under construction"
+    type: warning
+    position: below-navbar
+    font-size: 1rem
+  navbar:
+    logo: images/logo_tes3.png
+    title: false
+    right:
+      - text: Blog
+        href: blog/index.qmd
+      - text: About
+        href: about/index.qmd
+      
+format:
+  html:
+    theme:
+      light: scss/light.scss
+    css: scss/styles.css
+    code-link: true
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    highlight-style: gruvbox
+    df-print: kable
+
+editor: visual
+

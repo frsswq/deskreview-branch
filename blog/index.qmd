@@ -1,0 +1,29 @@
+---
+listing:
+  sort: "date desc"
+  contents: "posts/*/index.qmd"
+  sort-ui: false
+  filter-ui: true
+  categories: true
+  feed: true
+page-layout: full
+title-block-banner: "#EAECEC"
+title-block-banner-color: "#050505"
+search: true
+comments: false
+---
+
+<!-- ---
+title: "Blog"
+listing:
+  contents: .
+  fields: [image, date, title, categories, description]
+  sort: "date desc"
+  type: grid
+  categories: numbered
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+comments: false
+--- -->

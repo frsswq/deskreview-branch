@@ -1,0 +1,219 @@
+/*-- scss:defaults --*/
+
+$white: #FFFFFF !default;
+$gray-300: #EAECEC !default;
+$gray-500: #BBBDBF !default;
+$gray-700: #343535 !default;
+$black: #050505 !default;
+
+$blue: #2E5AA9 !default;
+$brown: #574A43 !default;
+$orange: #E36C2A !default;
+
+$body-bg: $white !default;
+$body-color: $black !default;
+$link-color: $black !default;
+
+$navbar-bg: $white !default;
+$navbar-fg: $black !default;
+
+/*-- scss:text --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1.title {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+
+h3.no-anchor.listing-title {
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+span.menu-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.navbar > .container-fluid {
+  padding-left: 0 !important;
+}
+
+/*-- scss: blog --*/
+
+#quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
+  justify-content: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-template-columns: [border-content-end] 0 [screen-end-inset] 0;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+/*-- scss: blog --*/
+
+.quarto-listing-filter {
+  margin-bottom: 1em;
+  width: 200px;
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+
+div.quarto-post .thumbnail img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+}
+
+div.quarto-post .body {
+  margin-top: 1.1rem;
+}
+
+div.quarto-post .metadata {
+  padding-top: 1rem;
+}
+
+div.listing-categories {
+  margin-top: 0.6rem;
+}
+
+div.quarto-post.image-right {
+  margin-bottom: 0rem;
+}
+
+// $theme: "flatly" !default;
+
+// $body-bg: $white !default;
+// $body-color: $black !default;
+// $headings-color: $body-color !default;
+// $code-block-bg: darken($body-bg, 3%) !default;
+
+// $link-color: lighten($body-color, 30%) !default;
+// $link-shade-percentage: 30% !default;
+// $link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
+
+// $code-color: lighten($body-color, 10%) !default;
+// $code-bg: darken($body-bg, 10%) !default;
+
+// $card-border-color: $body-color !default;
+// $form-select-border-color: $body-color !default;
+
+// @import url("https://fonts.googleapis.com/css2?family=Rasa&display=swap");
+
+
+
+// $headings-font-family: "Rasa", serif !default;
+// $font-family-sans-serif: "Inter", sans-serif !default;
+// $font-family-serif: "EB Garamond", serif !default;
+
+
+
+// p {
+//   font-family: $font-family-sans-serif;
+// }
+
+
+
+// .content p {
+//   font-size: 1.2rem;
+//   margin-top: 1.25rem;
+//   margin-bottom: 1.25rem;
+//   font-family: $font-family-serif;
+// }
+
+// .quarto-title-meta-contents {
+//   margin-top: -1.25rem;
+// }
+
+// .quarto-title-meta-contents p {
+//   font-family: $font-family-sans-serif;
+// }
+
+// img.img-fluid {
+//   max-width: 100%;
+//   height: auto;
+//   margin-top: 0.75rem;
+//   margin-bottom: 0.75rem;
+// }
+
+// .content h1 {
+//   font-size: 2.4rem;
+// }
+
+// .content h3 {
+//   margin-top: 2.5rem;
+// }
+
+// .quarto-title-meta p {
+//   font-size: 0.9rem;
+// }
+
+
+// h5.no-anchor.card-title.listing-title {
+//   font-family: $font-family-sans-serif;
+//   font-weight: 600;
+// }
+
+// h5.quarto-listing-category-title {
+//   font-family: $font-family-sans-serif;
+// }
+
+// .quarto-title-banner .quarto-title .title {
+//   color: $body-color;
+// }
+
+// .listing-categories {
+//   margin-top: 0.5rem;
+// }
+
+// img.thumbnail-image.card-img {
+//   margin-top: -1.25rem;
+// }
+
+/*-- scss:misc--*/
+
+// footer p {
+//   font-size: 0.9rem;
+//   margin-left: 0.9rem;
+// }
+
+// .card-footer {
+//   color: darken($body-bg, 30%);
+//   background-color: darken($body-bg, 2%);
+// }
+
+// .navbar-brand > img {
+//   max-height: 40px;
+// }
+
+// span.menu-text {
+//   color: $body-color;
+// }
+
+// .fa-solid {
+//   color: #9ea1a8;
+// }
+
+// .light-mode {
+//   display: block;
+// }
