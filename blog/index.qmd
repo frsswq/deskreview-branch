@@ -7,8 +7,6 @@ listing:
   categories: true
   feed: true
 page-layout: full
-title-block-banner: "#EAECEC"
-title-block-banner-color: "#050505"
 search: true
 comments: false
 ---
