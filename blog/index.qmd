@@ -3,7 +3,7 @@ listing:
   sort: "date desc"
   contents: "posts/*/index.qmd"
   sort-ui: false
-  filter-ui: true
+  filter-ui: false
   categories: true
   feed: true
 page-layout: full

@@ -104,13 +104,7 @@ a.uri.external {
 
 /*-- scss: blog --*/
 
-.quarto-listing-filter {
-  margin-bottom: 1em;
-  width: 200px;
-  margin-right: auto !important;
-  margin-left: 0 !important;
-  margin-top: 0.5rem;
-}
+
 
 div.quarto-post .thumbnail img {
   max-width: 100%;
@@ -153,19 +147,23 @@ div.quarto-post.image-right {
   }
 }
 
-@media (max-width: 767.98px) {
-  .quarto-listing-filter {
-    margin-bottom: 0rem !important; 
-    margin-top: 0rem !important;
-  }
-}
+// .quarto-listing-filter {
+//   margin-bottom: 1em;
+//   width: 200px;
+//   margin-right: auto !important;
+//   margin-left: 0 !important;
+//   margin-top: 0.5rem;
+// }
+
+// @media (max-width: 767.98px) {
+//   .quarto-listing-filter {
+//     margin-bottom: 0rem !important; 
+//     margin-top: 0rem !important;
+//   }
+// }
 
 /*-- scss: trash --*/
 
-// $theme: "flatly" !default;
-
-// $body-bg: $white !default;
-// $body-color: $black !default;
 // $headings-color: $body-color !default;
 // $code-block-bg: darken($body-bg, 3%) !default;
 
@@ -179,56 +177,10 @@ div.quarto-post.image-right {
 // $card-border-color: $body-color !default;
 // $form-select-border-color: $body-color !default;
 
-// @import url("https://fonts.googleapis.com/css2?family=Rasa&display=swap");
-
-
-
-// $headings-font-family: "Rasa", serif !default;
-// $font-family-sans-serif: "Inter", sans-serif !default;
-// $font-family-serif: "EB Garamond", serif !default;
-
-
-
-// p {
-//   font-family: $font-family-sans-serif;
-// }
-
-
-
-// .content p {
-//   font-size: 1.2rem;
-//   margin-top: 1.25rem;
-//   margin-bottom: 1.25rem;
-//   font-family: $font-family-serif;
-// }
-
-// .quarto-title-meta-contents {
-//   margin-top: -1.25rem;
-// }
 
 // .quarto-title-meta-contents p {
 //   font-family: $font-family-sans-serif;
 // }
-
-// img.img-fluid {
-//   max-width: 100%;
-//   height: auto;
-//   margin-top: 0.75rem;
-//   margin-bottom: 0.75rem;
-// }
-
-// .content h1 {
-//   font-size: 2.4rem;
-// }
-
-// .content h3 {
-//   margin-top: 2.5rem;
-// }
-
-// .quarto-title-meta p {
-//   font-size: 0.9rem;
-// }
-
 
 // h5.no-anchor.card-title.listing-title {
 //   font-family: $font-family-sans-serif;
@@ -241,14 +193,6 @@ div.quarto-post.image-right {
 
 // .quarto-title-banner .quarto-title .title {
 //   color: $body-color;
-// }
-
-// .listing-categories {
-//   margin-top: 0.5rem;
-// }
-
-// img.thumbnail-image.card-img {
-//   margin-top: -1.25rem;
 // }
 
 /*-- scss:misc--*/
