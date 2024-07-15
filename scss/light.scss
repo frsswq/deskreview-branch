@@ -51,6 +51,12 @@ span.menu-text {
   padding-left: 0 !important;
 }
 
+#quarto-announcement .quarto-announcement-content p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
 /*-- scss: blog --*/
 
 #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
