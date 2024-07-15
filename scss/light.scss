@@ -14,6 +14,9 @@ $body-bg: $white !default;
 $body-color: $black !default;
 $link-color: $black !default;
 
+$link-color: $orange !default;
+$text-muted: $gray-500 !default;
+
 $navbar-bg: $white !default;
 $navbar-fg: $black !default;
 
@@ -37,7 +40,7 @@ h3.no-anchor.listing-title {
 p {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
 }
 
@@ -59,22 +62,48 @@ span.menu-text {
 
 /*-- scss: blog --*/
 
+// body {
+//   width: 100%; 
+//   text-align: center;
+// }
+
 main#quarto-document-content.content {
+  max-width: 740px;
+  // grid-column: body-content-start / body-content-end;
+  // grid-row: content-top / content-bottom;
+  // align-content: flex-start;
   // justify-content: center;
   // align-items: center;
   // max-width: 680px;
+  // margin: 0px auto;
 }
 
-#quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
-  // justify-content: center;
-  // align-items: center;
-  // max-width: 720px;
-  // // width: 100%;
-  // // height: auto;
-  // margin: 0 auto;
-  // padding: 0 1.5rem;
-  // padding-right: 0 1.5rem;
-  // grid-template-columns: [border-content-end] 0 [screen-end] 1.5em;
+#quarto-content.page-columns main.column-page, #quarto-content.page-columns main.column-page-right, #quarto-content.page-columns main.column-page-left {
+  max-width: 1440px;
+}
+
+// @media (max-width: 768px) {
+//   #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
+    // justify-content: center;
+    // align-items: center;
+    // max-width: 720px;
+    // // width: 100%;
+    // // height: auto;
+    // margin: 0 auto;
+    // padding: 0 1.5rem;
+    // padding-right: 0 1.5rem;
+    // grid-template-columns: [border-content-end] 0 [screen-end] 1.5em;
+//   }  
+// }
+
+ #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
+  line-height: 2;
+//   display: grid;
+//   gap: 0;
+//   grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr;
+//   justify-content: center;
+//   align-items: center;
+//   align-content: center;
 }
 
 // #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
@@ -91,6 +120,7 @@ main#quarto-document-content.content {
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 0.8rem;
+  line-height: 1 !important;
 }
 
 /*-- scss: blog --*/
