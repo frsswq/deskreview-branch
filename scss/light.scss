@@ -14,10 +14,12 @@ $body-bg: $white !default;
 $body-color: $black !default;
 
 $link-color: $gray-700 !default;
+
 $text-muted: $gray-500 !default;
 
 $navbar-bg: $white !default;
 $navbar-fg: $black !default;
+$navbar-link: $blue !default;
 
 /*-- scss:text --*/
 
@@ -47,10 +49,14 @@ span.menu-text {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+
+  &:hover {
+    color: rgba($black, 0.8);
+  }
 }
 
-.navbar > .container-fluid {
-  padding-left: 0 !important;
+.navbar-nav .nav-link.active > span.menu-text {
+    color: rgba($black, 1);
 }
 
 #quarto-announcement .quarto-announcement-content p {
@@ -104,8 +110,6 @@ a.uri.external {
 
 /*-- scss: blog --*/
 
-
-
 div.quarto-post .thumbnail img {
   max-width: 100%;
   height: auto;
@@ -147,6 +151,58 @@ div.quarto-post.image-right {
   }
 }
 
+/*-- scss: hover category --*/
+
+div.quarto-post .listing-categories .listing-category {
+  color: $blue !important;
+  border: solid 1px $blue !important;
+
+  &:hover {
+    background-color: rgba($blue, 0.2);
+  }
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+  color: $blue !important;
+  border: solid 1px $blue !important;
+
+  &:hover {
+    background-color: rgba($blue, 0.2);
+  }
+}
+
+.quarto-listing-category .category {
+  // padding-bottom: 5px;
+
+  &:hover {
+    color: rgba($blue, 0.8);
+  }
+
+  &.active {
+    color: rgba($blue, 1);
+  }
+}
+
+div.quarto-title .quarto-categories .quarto-category {
+  color: $blue;
+  border: solid 1px $blue;
+  opacity: 1;
+
+  // &:hover {
+  //   background-color: rgba($blue, 0.2);
+  // }
+}
+
+.quarto-grid-item .card-title {
+  color: $blue !important;
+}
+
+
+
+
+
+/*-- scss: trash --*/
+
 // .quarto-listing-filter {
 //   margin-bottom: 1em;
 //   width: 200px;
@@ -161,8 +217,6 @@ div.quarto-post.image-right {
 //     margin-top: 0rem !important;
 //   }
 // }
-
-/*-- scss: trash --*/
 
 // $headings-color: $body-color !default;
 // $code-block-bg: darken($body-bg, 3%) !default;
@@ -200,25 +254,4 @@ div.quarto-post.image-right {
 // footer p {
 //   font-size: 0.9rem;
 //   margin-left: 0.9rem;
-// }
-
-// .card-footer {
-//   color: darken($body-bg, 30%);
-//   background-color: darken($body-bg, 2%);
-// }
-
-// .navbar-brand > img {
-//   max-height: 40px;
-// }
-
-// span.menu-text {
-//   color: $body-color;
-// }
-
-// .fa-solid {
-//   color: #9ea1a8;
-// }
-
-// .light-mode {
-//   display: block;
 // }

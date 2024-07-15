@@ -1,9 +1,0 @@
-/index.xml                          /project/index-R.xml
-/categories/r/index.xml             /project/index-R.xml
-/category/*                         /project
-/categories/*                       /project
-/tag/website                        /blog
-/tag/*                              /project
-/tags/*                             /project
-/post/*                             /blog/:splat
-/project/zbox/*
