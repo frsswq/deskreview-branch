@@ -2,15 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.deskreview.com/index.html</loc>
-    <lastmod>2024-07-16T15:01:59.417Z</lastmod>
+    <lastmod>2024-07-16T15:14:35.421Z</lastmod>
   </url>
   <url>
     <loc>https://www.deskreview.com/blog/posts/Kongsi 8/index.html</loc>
     <lastmod>2024-07-15T17:46:26.335Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.deskreview.com/about/index.html</loc>
-    <lastmod>2024-07-16T14:52:09.749Z</lastmod>
   </url>
   <url>
     <loc>https://www.deskreview.com/blog/index.html</loc>
@@ -19,9 +15,5 @@
   <url>
     <loc>https://www.deskreview.com/blog/posts/Monster (2023)/index.html</loc>
     <lastmod>2024-07-15T12:37:12.400Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.deskreview.com/about/about.html</loc>
-    <lastmod>2024-07-16T10:41:03.593Z</lastmod>
   </url>
 </urlset>

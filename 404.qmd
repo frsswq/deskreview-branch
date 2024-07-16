@@ -3,7 +3,7 @@ title: ""
 comments: false
 format:
     html:
-        css: scss/light-404.scss
+        css: /scss/light-404.scss
 ---
 
 # 404
