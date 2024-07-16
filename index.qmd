@@ -1,12 +1,12 @@
 ---
 title: ""
-image: "/images/logo-dr.webp"
+image: logo-dr.webp
 about: trestles
 comments: false
 title-block-banner: false
 format:
     html:
-        css: /scss/light-about.css
+        css: /scss/light-about.scss
 ---
 ::: {.about}
 # A Brand Strategy Study

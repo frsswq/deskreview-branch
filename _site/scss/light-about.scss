@@ -1,0 +1,81 @@
+div.quarto-about-trestles {
+  max-width: 1440px;
+}
+
+div.quarto-about-trestles .about-entity img.rounded {
+  margin: 0;
+}
+
+div.quarto-about-trestles .about-contents {
+  display: flex;
+  text-align: left;
+  vertical-align: middle;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3em;
+}
+
+div.quarto-about-trestles .about-entity {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 2em;
+  margin: 0;
+  align-content: center;
+  vertical-align: middle;
+} 
+
+@media (max-width: 991px) {
+  div.quarto-about-trestles .about-contents {
+    display: flex;
+    text-align: left;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 1em;
+  }
+}
+
+@media (max-width: 991px) {
+  div.quarto-about-trestles .about-entity {
+    display: flex;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    align-content: center;
+    vertical-align: middle;
+    padding: 0;
+  } 
+}
+
+#a-brand-strategy-study.level1.about h1 {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+
+#a-brand-strategy-study.level1.about p {
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+  
+@media (max-width: 991px) {
+  #a-brand-strategy-study.level1.about h1 {
+    text-align: center;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 991px) {
+  #a-brand-strategy-study.level1.about p {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    max-width: 400px;
+  }  
+}
