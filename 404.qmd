@@ -2,11 +2,8 @@
 title: "Page Not Found"
 comments: false
 anchor-sections: false
-format:
-    html:
-        css: /scss/light-404.scss
 ---
-
+:::{.not-found}
 # 404
 
 #### Page Not Found
@@ -16,3 +13,4 @@ The page you were looking for does not exist.
 Use the search bar above to find what you're looking for, 
 
 or head over to our [about](index.qmd) and [blog](blog/index.qmd) to see if you can find it.
+:::
