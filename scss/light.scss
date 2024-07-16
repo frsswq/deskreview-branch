@@ -6,14 +6,17 @@ $gray-500: #BBBDBF !default;
 $gray-700: #343535 !default;
 $black: #050505 !default;
 
-$blue: #2E5AA9 !default;
+$blue: #2e59a9 !default;
+$light-blue: #567abc !default;
 $brown: #574A43 !default;
 $orange: #E36C2A !default;
 
 $body-bg: $white !default;
 $body-color: $black !default;
 
-$link-color: $gray-700 !default;
+$link-color: $blue !default;
+$link-hover-color: shift-color($blue, 30%) !default;
+$link-hover-decoration: none !default;
 
 $text-muted: $gray-500 !default;
 
@@ -132,6 +135,26 @@ div.quarto-post.image-right {
   margin-bottom: 0rem;
 }
 
+.navbar-toggler-icon {
+  height: 1.25em !important;
+  width: 1.25em !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0.2rem !important;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+@media (max-width: 767.98px) {
+  .navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon {
+    margin-bottom: .2rem;
+  }
+}
+.sidebar.margin-sidebar {
+  grid-column: page-end / screen-end-inset;
+}
+
 @media (max-width: 767.98px) {
   .quarto-post .thumbnail {
     order: 1 !important;
@@ -203,9 +226,29 @@ div.quarto-title .quarto-categories .quarto-category {
   color: $blue !important;
 }
 
+/*-- scss: 404 --*/
 
+#section.level1.not-found > h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 10rem;
+  // margin-top: 5rem;
+  margin-bottom: 0;
+  margin-right: 2rem;
+  line-height: 1;
+}
 
+#page-not-found h4.anchored {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-family: "Bitter", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
 
+#page-not-found.level4 > p {
+  margin-bottom: 0.5rem;
+}
 
 /*-- scss: trash --*/
 
