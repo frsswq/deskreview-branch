@@ -4,3 +4,25 @@ main#quarto-document-content.content {
     vertical-align: middle;
     flex-direction: column;
   }
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 10rem;
+  // margin-top: 5rem;
+  margin-bottom: 0;
+  margin-right: 2rem;
+  line-height: 1;
+}
+  
+h4.anchored {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-family: "Bitter", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}

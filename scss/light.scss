@@ -1,34 +1,34 @@
+// Var ref: https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+
 /*-- scss:defaults --*/
 
-$white: #FFFFFF !default;
-$gray-300: #EAECEC !default;
-$gray-500: #BBBDBF !default;
+$white: #ffffff !default;
+$gray-300: #eaecec !default;
+$gray-500: #bbbdbf !default;
 $gray-700: #343535 !default;
 $black: #050505 !default;
 
 $blue: #2e59a9 !default;
-$light-blue: #567abc !default;
-$brown: #574A43 !default;
-$orange: #E36C2A !default;
+$brown: #574a43 !default;
+$orange: #e36c2a !default;
 
 $body-bg: $white !default;
 $body-color: $black !default;
 
 $link-color: $blue !default;
-$link-hover-color: shift-color($blue, 30%) !default;
 $link-hover-decoration: none !default;
 
 $text-muted: $gray-500 !default;
 
 $navbar-bg: $white !default;
 $navbar-fg: $black !default;
-$navbar-link: $blue !default;
+$navbar-link: $black !default;
 
 /*-- scss:text --*/
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
 
 h1.title {
   font-family: "Inter", sans-serif;
@@ -59,7 +59,11 @@ span.menu-text {
 }
 
 .navbar-nav .nav-link.active > span.menu-text {
-    color: rgba($black, 1);
+  color: rgba($black, 1);
+}
+
+.nav-link:hover {
+  color: rgba($black, 0.8) !important;
 }
 
 #quarto-announcement .quarto-announcement-content p {
@@ -68,19 +72,26 @@ span.menu-text {
   font-weight: 400;
 }
 
+#quarto-announcement {
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+}
+
 /*-- scss: blog --*/
 
 main#quarto-document-content.content {
   max-width: 680px;
   justify-content: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-#quarto-content.page-columns main.column-page, #quarto-content.page-columns main.column-page-right, #quarto-content.page-columns main.column-page-left {
+#quarto-content.page-columns main.column-page,
+#quarto-content.page-columns main.column-page-right,
+#quarto-content.page-columns main.column-page-left {
   max-width: 1440px;
 }
 
- #quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
+#quarto-content.quarto-container.page-columns.page-rows-contents.page-layout-article.page-navbar {
   line-height: 1.5;
 }
 
@@ -108,7 +119,11 @@ a.uri.external {
   -ms-hyphens: auto;
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
-  hyphens: auto; 
+  hyphens: auto;
+}
+
+a:hover {
+  color: rgba($blue, 0.9);
 }
 
 /*-- scss: blog --*/
@@ -120,37 +135,38 @@ div.quarto-post .thumbnail img {
 }
 
 div.quarto-post .body {
-  margin-top: 1.1rem;
+  margin-top: 1.1em;
 }
 
 div.quarto-post .metadata {
-  padding-top: 1rem;
+  padding-top: 1em;
 }
 
 div.listing-categories {
-  margin-top: 0.6rem;
+  margin-top: 0.6em;
 }
 
 div.quarto-post.image-right {
-  margin-bottom: 0rem;
+  margin-bottom: 0em;
 }
 
 .navbar-toggler-icon {
-  height: 1.25em !important;
-  width: 1.25em !important;
+  height: 1.25rem !important;
+  width: 1.25rem !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-left: 0.2rem !important;
-  padding-bottom: 0.2rem;
-  padding-top: 0.2rem;
+  padding-left: 0.2em !important;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
 }
 
 @media (max-width: 767.98px) {
   .navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon {
-    margin-bottom: .2rem;
+    margin-bottom: 0.2em;
   }
 }
+
 .sidebar.margin-sidebar {
   grid-column: page-end / screen-end-inset;
 }
@@ -163,20 +179,26 @@ div.quarto-post.image-right {
 
 @media (max-width: 767.98px) {
   div.quarto-post .body {
-    margin-top: 0rem !important;
+    margin-top: 0 !important;
   }
 }
 
 @media (max-width: 767.98px) {
   div.quarto-post .metadata {
-    padding-top: 0rem !important;
-    padding-bottom: 0rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
 
 @media (max-width: 767.98px) {
   div.navbar-container.container-fluid {
-    padding-left: 0.4rem;
+    padding-left: 0.4em;
+  }
+}
+
+@media (min-width: 767.98px) {
+  #quarto-header > nav {
+    padding-top: 1.5em;
   }
 }
 
@@ -226,29 +248,9 @@ div.quarto-title .quarto-categories .quarto-category {
   color: $blue !important;
 }
 
-/*-- scss: 404 --*/
+/*-- scss: about --*/
 
-#section.level1.not-found > h1 {
-  font-family: "Inter", sans-serif;
-  font-weight: 900;
-  font-size: 10rem;
-  // margin-top: 5rem;
-  margin-bottom: 0;
-  margin-right: 2rem;
-  line-height: 1;
-}
 
-#page-not-found h4.anchored {
-  margin-top: 0;
-  margin-bottom: 2rem;
-  font-family: "Bitter", sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
-}
-
-#page-not-found.level4 > p {
-  margin-bottom: 0.5rem;
-}
 
 /*-- scss: trash --*/
 
@@ -262,7 +264,7 @@ div.quarto-title .quarto-categories .quarto-category {
 
 // @media (max-width: 767.98px) {
 //   .quarto-listing-filter {
-//     margin-bottom: 0rem !important; 
+//     margin-bottom: 0rem !important;
 //     margin-top: 0rem !important;
 //   }
 // }
@@ -270,37 +272,10 @@ div.quarto-title .quarto-categories .quarto-category {
 // $headings-color: $body-color !default;
 // $code-block-bg: darken($body-bg, 3%) !default;
 
-// $link-color: lighten($body-color, 30%) !default;
-// $link-shade-percentage: 30% !default;
-// $link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
-
 // $code-color: lighten($body-color, 10%) !default;
 // $code-bg: darken($body-bg, 10%) !default;
 
 // $card-border-color: $body-color !default;
 // $form-select-border-color: $body-color !default;
 
-
-// .quarto-title-meta-contents p {
-//   font-family: $font-family-sans-serif;
-// }
-
-// h5.no-anchor.card-title.listing-title {
-//   font-family: $font-family-sans-serif;
-//   font-weight: 600;
-// }
-
-// h5.quarto-listing-category-title {
-//   font-family: $font-family-sans-serif;
-// }
-
-// .quarto-title-banner .quarto-title .title {
-//   color: $body-color;
-// }
-
 /*-- scss:misc--*/
-
-// footer p {
-//   font-size: 0.9rem;
-//   margin-left: 0.9rem;
-// }

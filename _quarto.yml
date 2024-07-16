@@ -23,6 +23,7 @@ website:
     type: textbox
   navbar:
     logo: images/nav-logo.webp
+    logo-href: /about/index.qmd
     title: false
     right:
       - text: Blog

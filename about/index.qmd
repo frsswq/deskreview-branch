@@ -1,10 +1,15 @@
 ---
-title: "Deskreview"
-about:
-  template: trestles
-  links:
-    - icon: instagram
-      href: https://www.instagram.com/deskreview/
+title: ""
+image: "/images/logo-dr.webp"
+about: trestles
 comments: false
-title-block-banner: true
+title-block-banner: false
+format:
+    html:
+        css: /scss/light-about.scss
 ---
+::: {.about}
+# A Brand Strategy Study
+
+We focus on developing an effective strategy to ensure a brand perfectly found a place among the society, through endless exploration of new innovative method and branding sciences.
+:::

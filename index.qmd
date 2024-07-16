@@ -1,5 +1,0 @@
----
-page-layout: full
-title-block-banner: false
-about: trestles
----
