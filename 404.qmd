@@ -1,9 +1,10 @@
 ---
 title: ""
 comments: false
+anchor-sections: false
 format:
     html:
-        css: /scss/light-404.scss
+        css: /scss/light-404.css
 ---
 
 # 404

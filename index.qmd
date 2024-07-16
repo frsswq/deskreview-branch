@@ -6,7 +6,7 @@ comments: false
 title-block-banner: false
 format:
     html:
-        css: /scss/light-about.scss
+        css: /scss/light-about.css
 ---
 ::: {.about}
 # A Brand Strategy Study
