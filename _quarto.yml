@@ -23,13 +23,13 @@ website:
     type: textbox
   navbar:
     logo: images/nav-logo.webp
-    logo-href: /about/index.qmd
+    logo-href: index.qmd
     title: false
     right:
       - text: Blog
         href: blog/index.qmd
       - text: About
-        href: about/index.qmd
+        href: index.qmd
       
 format:
   html:
