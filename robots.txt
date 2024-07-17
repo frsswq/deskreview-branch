@@ -1,1 +1,1 @@
-Sitemap: https://www.deskreview.com/sitemap.xml
+Sitemap: https://frsswq.github.io/deskreview-branch/sitemap.xml

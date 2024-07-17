@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Deskreview</title>
-<link>https://www.deskreview.com/blog/</link>
-<atom:link href="https://www.deskreview.com/blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://frsswq.github.io/deskreview-branch/blog/</link>
+<atom:link href="https://frsswq.github.io/deskreview-branch/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.54</generator>
 <lastBuildDate>Tue, 09 Jul 2024 17:00:00 GMT</lastBuildDate>
 <item>
   <title>Aesthetica of (my) Human Experience at Kongsi 8</title>
   <dc:creator>Dzaki Zaidan</dc:creator>
-  <link>https://www.deskreview.com/blog/posts/Kongsi 8/</link>
+  <link>https://frsswq.github.io/deskreview-branch/blog/posts/Kongsi 8/</link>
   <description><![CDATA[ 
 
 
@@ -22,7 +22,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://www.deskreview.com/blog/posts/Kongsi 8/Kongsi.png" class="img-fluid figure-img"></p>
+<p><img src="https://frsswq.github.io/deskreview-branch/blog/posts/Kongsi 8/Kongsi.png" class="img-fluid figure-img"></p>
 <figcaption>Bottlesmokers performed their plant-sourced synth set at Irama Sunyi by Kongsi 8.</figcaption>
 </figure>
 </div>
@@ -42,20 +42,20 @@
  ]]></description>
   <category>Opinion</category>
   <category>Existentialism</category>
-  <guid>https://www.deskreview.com/blog/posts/Kongsi 8/</guid>
+  <guid>https://frsswq.github.io/deskreview-branch/blog/posts/Kongsi 8/</guid>
   <pubDate>Tue, 09 Jul 2024 17:00:00 GMT</pubDate>
-  <media:content url="https://www.deskreview.com/blog/posts/Kongsi 8/Kongsi.png" medium="image" type="image/png" height="192" width="144"/>
+  <media:content url="https://frsswq.github.io/deskreview-branch/blog/posts/Kongsi 8/Kongsi.png" medium="image" type="image/png" height="192" width="144"/>
 </item>
 <item>
   <title>Monster (2023) and Human Instinct</title>
   <dc:creator>Dzaki Zaidan</dc:creator>
-  <link>https://www.deskreview.com/blog/posts/Monster (2023)/</link>
+  <link>https://frsswq.github.io/deskreview-branch/blog/posts/Monster (2023)/</link>
   <description><![CDATA[ 
 
 
 
 
-<p><img src="https://www.deskreview.com/blog/posts/Monster (2023)/Monster(2013).png" class="img-fluid"></p>
+<p><img src="https://frsswq.github.io/deskreview-branch/blog/posts/Monster (2023)/Monster(2013).png" class="img-fluid"></p>
 <p>As human behaviorist Dr.&nbsp;John Demartini stated about judgment, our minds have an urge to seek information as fast as possible by reflecting something to ourselves, as if something is blatantly more superior or inferior to us. “Monster” (2023), with its methodical POV-changing scenes, elegantly proves that avoiding judging behaviors is simply an attempt to live life and see things from others’ perspectives. But hold up there; we also need to feel the guilt of previously misunderstanding before eventually putting ourselves in their shoes. This guiltiness is crucial as the transitional point of judging-to-realizing cycles, making us aware of what matters in this movie.</p>
 <p>It seems very natural for us to despise Mr.&nbsp;Hori (Eita Nagayama) in the first few minutes of the movie. We position ourselves to be more superior and “judge” Mr.&nbsp;Hori based on what Minato’s Mom (Sakura Ando) perceives, assuming that Mr.&nbsp;Hori is an unethical teacher caught walking with a “karaoke girl.” Morally, we and Minato’s Mom take a higher position to quickly judge the current condition. We judge and generalize Mr.&nbsp;Hori to be objectively bad and unethical. However, this perspective shifts when we switch to Mr.&nbsp;Hori’s POV and see life through his eyes; we feel a slight guilt for not knowing what’s on his side. This judging-realizing cycle repeats throughout the whole movie, leading to the central moral conflict of the story: the complex emotions of a couple of pre-teen boys.</p>
 <p>It’s humbling and devastating to see how the judging method we usually employ as humans clearly fails to face the complex nature of human emotions, especially when it comes to understanding children as adults. The storytelling flow of the movie is like telling us that there’s an invisible upside-down pyramid of this conflict, and at the very bottom of it is a confused little boy dealing with his own emotions. He becomes so confused with himself that it confuses and messes with others’ perceptions about the people surrounding them — Minato’s Mom to Mr.&nbsp;Hori, Mr.&nbsp;Hori to Minato, and ultimately Minato to himself. Apparently, what Minato experiences emotionally not only confuses the character but also creates a sporadic buzz among its audience about who exactly the “monster” is and, specifically, whether it’s appropriate to even start a conversation about homosexuality in pre-teen age.</p>
@@ -75,9 +75,9 @@
   <category>Movie</category>
   <category>Monster</category>
   <category>Moviereview</category>
-  <guid>https://www.deskreview.com/blog/posts/Monster (2023)/</guid>
+  <guid>https://frsswq.github.io/deskreview-branch/blog/posts/Monster (2023)/</guid>
   <pubDate>Wed, 31 Jan 2024 17:00:00 GMT</pubDate>
-  <media:content url="https://www.deskreview.com/blog/posts/Monster (2023)/Monster(2013).png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://frsswq.github.io/deskreview-branch/blog/posts/Monster (2023)/Monster(2013).png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>
