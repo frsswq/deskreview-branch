@@ -1,1 +1,1 @@
-Sitemap: blog/index.qmd/sitemap.xml
+Sitemap: https://frsswq.github.io/deskreview/sitemap.xml
